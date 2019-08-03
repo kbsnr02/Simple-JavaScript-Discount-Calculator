@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple JavaScript Discount Calculator</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    
+</head>
+<body>
+
+<div class="container" style="margin-top: 50px">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Simple JavaScript Discount Calculator</h1>
+            <form>
+              <div class="form-group">
+                <label for="tamount">Total Amount:</label>
+                <input type="text" id="totalAmount" class="form-control" placeholder="Enter Total Amount">
+              </div>
+              <div class="form-group">
+                <label for="discount">Max Discount (%)</label>
+                <input type="text" id="totalDiscount" class="form-control" placeholder="Max Discount (E.g.: 10)">
+              </div>
+              <div class="form-group">
+                <button id="mybtn" type="submit" class="btn btn-primary">Submit</button>
+              </div>
+              <div class="form-group">
+                <div><strong>Net Amount:</strong> <span id="netAmount"></span> </div>
+              </div>
+            </form>        
+        </div>
+    </div>
+</div>
+    
+      
+<script type="text/javascript" src="calc.js"></script>  
+    
+</body>
+</html>
+
